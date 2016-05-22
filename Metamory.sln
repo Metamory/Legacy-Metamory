@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{085D5EA9-F9A3-41EC-99FF-DDEC05412EA8}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3526A6CB-0C44-412C-9A56-738B57571FC1}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		README.md = README.md
+		Secrets.config = Secrets.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metamory.Api", "Metamory.Api\Metamory.Api.csproj", "{54B7770A-4031-4417-A029-3BCFC9C32DDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metamory.Api.Tests", "Metamory.Api.Tests\Metamory.Api.Tests.csproj", "{AB1EA5D9-7306-4BD7-8995-47969D06F459}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metamory.WebApi", "Metamory.WebApi\Metamory.WebApi.csproj", "{0F9CBD23-A5AA-4384-B004-4113EC16231D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metamory.WebApi.Tests", "Metamory.WebApi.Tests\Metamory.WebApi.Tests.csproj", "{D3D35451-87FE-4554-B6BF-D21A2BF67050}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metamory.Web", "Metamory.Web\Metamory.Web.csproj", "{E6DE1D8F-3C76-44C0-8FF6-DCD75ACAB851}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54B7770A-4031-4417-A029-3BCFC9C32DDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54B7770A-4031-4417-A029-3BCFC9C32DDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54B7770A-4031-4417-A029-3BCFC9C32DDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54B7770A-4031-4417-A029-3BCFC9C32DDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB1EA5D9-7306-4BD7-8995-47969D06F459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB1EA5D9-7306-4BD7-8995-47969D06F459}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB1EA5D9-7306-4BD7-8995-47969D06F459}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB1EA5D9-7306-4BD7-8995-47969D06F459}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F9CBD23-A5AA-4384-B004-4113EC16231D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F9CBD23-A5AA-4384-B004-4113EC16231D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F9CBD23-A5AA-4384-B004-4113EC16231D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F9CBD23-A5AA-4384-B004-4113EC16231D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3D35451-87FE-4554-B6BF-D21A2BF67050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3D35451-87FE-4554-B6BF-D21A2BF67050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3D35451-87FE-4554-B6BF-D21A2BF67050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3D35451-87FE-4554-B6BF-D21A2BF67050}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6DE1D8F-3C76-44C0-8FF6-DCD75ACAB851}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6DE1D8F-3C76-44C0-8FF6-DCD75ACAB851}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6DE1D8F-3C76-44C0-8FF6-DCD75ACAB851}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6DE1D8F-3C76-44C0-8FF6-DCD75ACAB851}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
