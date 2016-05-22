@@ -1,4 +1,4 @@
-# VHS - Version and History System
+# Metamory - The Version Aware Storage System
 
 See the [Wiki](https://github.com/metamory/metamory/wiki) for documentation
 
