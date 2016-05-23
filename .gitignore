@@ -192,3 +192,4 @@ ModelManifest.xml
 */Secrets.config
 .nuget/
 .vs/
+*.pubxml
